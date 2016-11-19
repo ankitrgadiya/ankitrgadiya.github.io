@@ -1,0 +1,58 @@
+h1{
+	font-family: 'Heebo', sans-serif;
+	font-weight: lighter;
+	font-size: 40px;
+	text-align: center;
+}
+img{
+	height: 48px;
+	
+}
+p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	max-width: 500px;
+	text-align: center;
+	margin: 0 auto;
+}
+.strong{
+	font-family: 'Heebo', sans-serif;
+	font-size: 26px;
+}
+a{
+	font-family: 'Heebo', sans-serif;
+	font-weight: 100;
+	font-size: 24px;
+	color: #000;
+	text-decoration: none;
+    -moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+}
+a:hover{
+	color: #7DDEFF;
+}
+.button{
+	display: block;
+	text-align: center;
+	margin: 10px;
+}
+div{
+    margin-top:50px;
+}
+.line{ 
+    display: block;
+    border: 0;
+    color: white;
+    height: 1px;
+    background: black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#0002), to(#fff));
+	background: -moz-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#0002), to(#fff));
+}
+.fa{
+	color: #0005;
+}
+footer{
+	margin: 10px;
+}
