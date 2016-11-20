@@ -1,11 +1,16 @@
 body{
 	max-width: 3840px;
+	max-height: 2160px;
+	background: url("../images/bg.jpg");
+	background-size: cover;
+	background-position: center;
 }
 h1{
 	font-family: 'Heebo', sans-serif;
 	font-weight: lighter;
 	font-size: 40px;
 	text-align: center;
+	color: #fff;
 }
 img{
 	height: 48px;
@@ -17,6 +22,7 @@ p{
 	max-width: 500px;
 	text-align: center;
 	margin: 0 auto;
+	color: #fff;
 }
 .strong{
 	font-family: 'Heebo', sans-serif;
@@ -26,7 +32,7 @@ a{
 	font-family: 'Heebo', sans-serif;
 	font-weight: 100;
 	font-size: 24px;
-	color: #000;
+	color: #fff7;
 	text-decoration: none;
     -moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
@@ -46,7 +52,7 @@ div{
 }
 
 .fa{
-	color: #0005;
+	color: #0007;
 }
 footer{
 	margin: 10px;
@@ -54,32 +60,12 @@ footer{
 .line{
 	width: 100px;
 	height: 1px;
-	background: radial-gradient(circle, #0004, #fff9), #0004;
-	background: -webkit-radial-gradient(circle, #0004, #fff9), #0004;
-	background: -moz-radial-gradient(circle, #0004, #fff9), #0004;
+	background: #0004;
 	margin: 0 auto;
 	margin-top: 20px;
 	margin-bottom: -10px;
 	
 }
-.line-logo{
-	width: 100px;
-	height: 1px;
-	background: radial-gradient(circle, #0004, #fff9), #0004;
-	background: -webkit-radial-gradient(circle, #0004, #fff9), #0004;
-	background: -moz-radial-gradient(circle, #0004, #fff9), #0004;
-	margin: 0 auto;
-}
-img:hover .line-logo{
-	width: 100px;
-	height: 1px;
-	background: radial-gradient(circle, #0004, #fff9), #0004;
-	background: -webkit-radial-gradient(circle, #0004, #fff9), #0004;
-	background: -moz-radial-gradient(circle, #0004, #fff9), #0004;
-	margin: 0 auto;
-	opacity: 1;
-}
-
 @media (max-width: 500px){
 body{
 	
