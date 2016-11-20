@@ -1,8 +1,10 @@
 body{
 	max-width: 3840px;
-	background: url("../images/bg.jpg");
-	background-size: 100%;
-	background-position: center;
+	background: url("../images/bg.jpg") center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 h1{
 	font-family: 'Heebo', sans-serif;
@@ -65,7 +67,4 @@ footer{
 	margin-bottom: -10px;
 	
 }
-@media (max-width: 500px){
-body{
-	
-}
+
