@@ -67,4 +67,8 @@ footer{
 	margin-bottom: -10px;
 	
 }
-
+@media (max-width: 600px){
+	p{
+		max-width: 500px;
+	}
+}
