@@ -47,6 +47,7 @@ body {
 .nav.navbar-nav li a:hover {
   color: #0d47a1;
   text-decoration: underline;
+  background: none;
 }
 
 .about {
