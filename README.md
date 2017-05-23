@@ -1,4 +1,2 @@
 ## My website
-This repository is for my [website](https://ankitrgadiya.in).
-
-A very simple and light weight webpage.
+This repository contains code of my [website](https://ankitrgadiya.in).
